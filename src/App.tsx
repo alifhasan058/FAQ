@@ -11,6 +11,7 @@ import SupportAgentCard from './components/SupportAgentCard';
 import LiveChatDrawer from './components/LiveChatDrawer';
 import WhatsAppModal from './components/WhatsAppModal';
 import SubmitQuestionModal from './components/SubmitQuestionModal';
+import WhyChooseUs from './components/WhyChooseUs';
 
 export default function App() {
   // Load FAQs from LocalStorage or fallback to INITIAL_FAQS
@@ -92,6 +93,9 @@ export default function App() {
           </button>
         </div>
       </div>
+
+      {/* Brand Trust & Interactive Product Journey Section */}
+      <WhyChooseUs />
 
       {/* Main Widget Card wrapper */}
       <main 
