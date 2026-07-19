@@ -1,0 +1,6 @@
+{
+  "name": "NeaPure Help Center",
+  "description": "Interactive customer support center and FAQ dashboard for NeaPure water purifiers, featuring simulated chat support, WhatsApp callback requests, and smart search capabilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
